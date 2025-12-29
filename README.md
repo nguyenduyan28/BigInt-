@@ -49,10 +49,4 @@ Enter one expression per line, then press Enter. Examples:
 - Core: BigInt parses individual integers, performs arithmetic, and prints results.
 - Evaluator (CLI) glues them: parses, constructs BigInts from lexemes, applies the operator, and prints the outcome.
 
-## Tests
 
-From the build directory:
-```bash
-./parser_tests
-./bigint_tests
-```
